@@ -1,0 +1,118 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=file], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #5FBED7;
+}
+
+.image-button a {
+	padding: 25% 0 !important;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.elementor-widget-image img {
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+}
+
+div#product-grid #prodBtnAddAction{padding: 14px 20px; margin: 5px 0; background-color: #211a1a; border: none; color: #efefef; text-decoration: none; border-radius: 25px; cursor: pointer; font-weight: bold;
+}
+
+div#product-grid #prodBtnAddAction:hover {
+	background-color: #efefef; color: #211a1a; border: solid; border-block-width: 3px; border-color: #211a1a;
+}
+
+div#product-grid #productDetailsButtton:hover {background-color: #5FBED7; color: #211a1a; border: solid; border-block-width: 3px; border-color: #211a1a;}
+
+div#inline-inner input[type=submit]#shopPageAddAction {background-color: #211a1a; color: #efefef; font-weight: bold;}
+
+div#inline-inner input[type=submit]#shopPageAddAction:hover {background-color: #efefef; color: #211a1a; border: solid; border-block-width: 3px; border-color: #211a1a;}
+
+.col-33 {
+	margin-top: 20px;
+	-ms-flex: 33%; 
+	flex: 33%;
+}
+
+.col-50 {
+	-ms-flex: 50%; 
+	flex: 50%;
+}
+
+.col-75 {
+	-ms-flex: 75%; 
+	flex: 75%;
+}
+
+.col-33,
+.col-50,
+.col-75 {
+	padding: 0 16px;
+}
+
+.row {
+	display:flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 -16px;
+}
+
+@media (max-width: 800px) {
+	.row {
+		flex-direction: column-reverse;
+	}
+}
